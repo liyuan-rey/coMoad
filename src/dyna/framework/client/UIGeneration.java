@@ -631,7 +631,7 @@ public class UIGeneration extends JFrame
         chartTableHeaderRenderer = null;
         handCursor = new Cursor(12);
         ftd = null;
-        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true);
+        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true); 
         linkListener = null;
         expansionListener = null;
         fileListener = null;

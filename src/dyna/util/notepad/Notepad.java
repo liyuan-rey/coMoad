@@ -511,7 +511,7 @@ public class Notepad extends JPanel
         try
         {
             LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
-            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
+            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
         }
         catch(Exception exc)
         {

@@ -211,7 +211,7 @@ public class PartInsert4CADIntegration extends JFrame
             partTable = new Table();
             blPartButton = new BoxLayout(partButtonPanel, 0);
             listenerCommon = new ListenerCommon();
-            setTitle("Parts Insert for CAD Integration - coMoad");
+            setTitle("Parts Insert for CAD Integration - coMoad"); 
             setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
             addWindowListener(listenerCommon);
             setSize(800, 600);

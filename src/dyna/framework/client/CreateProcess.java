@@ -163,7 +163,7 @@ public class CreateProcess extends JFrame
         outerPanel = null;
         topPanel = null;
         namePanel = null;
-        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true);
+        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true); 
         assignPanel = null;
         splitPane = null;
         commentsScrollPane = null;

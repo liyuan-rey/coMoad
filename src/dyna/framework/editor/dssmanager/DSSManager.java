@@ -78,7 +78,7 @@ public class DSSManager extends JFrame
         try
         {
             LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
-            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
+            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             Options.setGlobalFontSizeHints(FontSizeHints.MIXED);
             Options.setDefaultIconSize(new Dimension(18, 18));
             ClearLookManager.setPolicy("com.jgoodies.clearlook.DefaultClearLookPolicy");

@@ -170,7 +170,7 @@ public class UserManager extends JFrame
             aus = (AUS)dfw.getServiceInstance("DF30AUS1");
             LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
             DynaMOAD.newUI = new UIManagement();
-            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
+            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             ClearLookManager.setPolicy("com.jgoodies.clearlook.DefaultClearLookPolicy");
             ClearLookManager.setMode(ClearLookMode.valueOf("ON"));
         }

@@ -32,7 +32,7 @@ public class Server
         server = this;
         System.out.println();
         System.out.println("coMoad Server v.1.0.0 (Enterprise Edition)");
-        System.out.println("Copyright (c) 2004, EESIN Information Technology Ltd.");
+        System.out.println("Copyright (c) 2004, EESIN Information Technology Ltd."); 
         System.out.println();
         System.out.println("Start initialization.....");
         ACCESS_IDENTIFIER = System.currentTimeMillis();

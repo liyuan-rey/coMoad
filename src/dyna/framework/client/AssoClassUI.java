@@ -72,7 +72,7 @@ public class AssoClassUI extends JFrame
     public AssoClassUI(ArrayList uiInfo, String classOuid)
     {
         mwlm = null;
-        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true);
+        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true); 
         hoardData = new DOSChangeable();
         fieldAndFieldGroupMap = new HashMap();
         actionButtonList = null;
@@ -113,7 +113,7 @@ public class AssoClassUI extends JFrame
     public AssoClassUI(ArrayList uiInfo, String classOuid, String assoInstanceOuid, int mode, ArrayList endOidList, String assoOuid)
     {
         mwlm = null;
-        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true);
+        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true); 
         hoardData = new DOSChangeable();
         fieldAndFieldGroupMap = new HashMap();
         actionButtonList = null;

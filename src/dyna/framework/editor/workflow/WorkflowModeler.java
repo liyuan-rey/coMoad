@@ -45,7 +45,7 @@ public class WorkflowModeler extends JFrame
         try
         {
             LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
-            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
+            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             dfw = new Client();
             dos = (DOS)dfw.getServiceInstance("DF30DOS1");
             wfm = (WFM)dfw.getServiceInstance("DF30WFM1");
@@ -328,7 +328,7 @@ public class WorkflowModeler extends JFrame
     public static void main(String args[])
     {
         splashWindow = new SplashWindow("icons/Splash.jpg", 500);
-        splashWindow.setStatusText("Copyright (c) 2004, EESIN Information Technology Ltd.");
+        splashWindow.setStatusText("Copyright (c) 2004, EESIN Information Technology Ltd."); 
         splashWindow.toFront();
         WorkflowModeler wm = new WorkflowModeler();
         wm.setVisible(true);

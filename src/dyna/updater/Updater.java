@@ -42,7 +42,7 @@ public class Updater extends JDialog
         glyphLabel = new GlyphLabel(" ", 5000L, 100L);
         animator = null;
         updateListFile = new File("update.dat");
-        setTitle("coMoad Update");
+        setTitle("coMoad Update"); 
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setSize(500, 200);
         setResizable(false);

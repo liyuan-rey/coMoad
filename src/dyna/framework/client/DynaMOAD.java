@@ -74,7 +74,7 @@ public class DynaMOAD
     {
         try
         {
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue()); 
             FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             dfw = new Client();
             dos = (DOS)dfw.getServiceInstance("DF30DOS1");
