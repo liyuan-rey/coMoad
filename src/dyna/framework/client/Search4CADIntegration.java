@@ -98,7 +98,7 @@ public class Search4CADIntegration extends JFrame
     public void initialize()
     {
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
-        setTitle("DynaMOAD - " + LogIn.userID);
+        setTitle("coMoad - " + LogIn.userID);
         java.awt.Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setSize(800, 600);
         mainFrameBorderLayout = new BorderLayout();

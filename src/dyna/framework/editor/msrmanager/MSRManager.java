@@ -146,7 +146,7 @@ public class MSRManager extends JFrame
     public void initialize()
     {
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
-        setTitle("MSR Manager - DynaMOAD");
+        setTitle("MSR Manager - coMoad");
         dosRootNode = new DOSChangeable();
         dosRootNode.put("ouid", "MSR");
         dosRootNode.put("name", "MSR");

@@ -189,7 +189,7 @@ public class UserManager extends JFrame
     public void initialize()
     {
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
-        setTitle("User Manager - DynaMOAD");
+        setTitle("User Manager - coMoad");
         dosRootNode = new DOSChangeable();
         dosRootNode.put("ouid", "Group");
         dosRootNode.put("name", "Group");

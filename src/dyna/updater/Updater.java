@@ -42,7 +42,7 @@ public class Updater extends JDialog
         glyphLabel = new GlyphLabel(" ", 5000L, 100L);
         animator = null;
         updateListFile = new File("update.dat");
-        setTitle("DynaMOAD Update");
+        setTitle("coMoad Update");
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setSize(500, 200);
         setResizable(false);
@@ -278,7 +278,7 @@ public class Updater extends JDialog
 
     private Animation createAnimation()
     {
-        Animation message = new GlyphAnimation(glyphLabel, 5000L, 1L, "DynaMOAD Update");
+        Animation message = new GlyphAnimation(glyphLabel, 5000L, 1L, "coMoad Update");
         Animation all = Animations.sequential(new Animation[] {
             message, message, message, message, message, message, message, message, message, message, 
             message, message, message, message, message, message, message, message, message, message, 

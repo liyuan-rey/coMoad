@@ -112,7 +112,7 @@ public class WorkflowModeler extends JFrame
         cutWorkMenuItem = new JMenuItem();
         pasteWorkMenuItem = new JMenuItem();
         setDefaultCloseOperation(2);
-        setTitle("Workflow Modeler - DynaMOAD");
+        setTitle("Workflow Modeler - coMoad");
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
         addWindowListener(new WindowAdapter() {
 

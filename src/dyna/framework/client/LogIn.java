@@ -74,7 +74,7 @@ public class LogIn extends JFrame
     public void initialize()
     {
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
-        setTitle("DynaMOAD Login");
+        setTitle("coMoad Login");
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setSize(668, 426);
         setResizable(false);

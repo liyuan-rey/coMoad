@@ -126,7 +126,7 @@ public class DSSManager extends JFrame
     public void initialize()
     {
         setIconImage(Toolkit.getDefaultToolkit().getImage("icons/DynaMOAD.gif"));
-        setTitle("DSS Manager - DynaMOAD");
+        setTitle("DSS Manager - coMoad");
         dosRootNode = new DOSChangeable();
         dosRootNode.put("ouid", "DSS");
         dosRootNode.put("name", "DSS");
