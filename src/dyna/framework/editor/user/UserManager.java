@@ -10,6 +10,7 @@ import com.jgoodies.clearlook.ClearLookMode;
 import com.jgoodies.plaf.FontUtils;
 import com.jgoodies.plaf.LookUtils;
 import com.jgoodies.plaf.plastic.PlasticXPLookAndFeel;
+import com.jgoodies.plaf.plastic.theme.ExperienceBlue;
 import com.jgoodies.swing.util.UIFactory;
 import dyna.framework.Client;
 import dyna.framework.client.*;
@@ -167,7 +168,7 @@ public class UserManager extends JFrame
         {
             dfw = new Client();
             aus = (AUS)dfw.getServiceInstance("DF30AUS1");
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new DynaTheme());
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
             DynaMOAD.newUI = new UIManagement();
             FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             ClearLookManager.setPolicy("com.jgoodies.clearlook.DefaultClearLookPolicy");

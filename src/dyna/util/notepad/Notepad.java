@@ -7,6 +7,7 @@ package dyna.util.notepad;
 
 import com.jgoodies.plaf.*;
 import com.jgoodies.plaf.plastic.PlasticXPLookAndFeel;
+import com.jgoodies.plaf.plastic.theme.ExperienceBlue;
 import com.jgoodies.swing.ExtToolBar;
 import com.jgoodies.swing.util.ToolBarButton;
 import com.jgoodies.swing.util.UIFactory;
@@ -509,7 +510,7 @@ public class Notepad extends JPanel
         });
         try
         {
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new DynaTheme());
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
             FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
         }
         catch(Exception exc)

@@ -62,7 +62,7 @@ public class LogIn extends JFrame
             initialize();
             addWindowListener(this);
             if(DynaMOAD.splashWindow != null)
-                DynaMOAD.splashWindow.setStatusText("Copyright (c) 2003-2004, Innovative PLM Solutions LTD.");
+                DynaMOAD.splashWindow.setStatusText("Copyright (c) 2004, EESIN Information Technology Ltd.");
         }
         catch(Exception ex)
         {

@@ -7,6 +7,7 @@ package dyna.framework.editor.workflow;
 
 import com.jgoodies.plaf.*;
 import com.jgoodies.plaf.plastic.PlasticXPLookAndFeel;
+import com.jgoodies.plaf.plastic.theme.ExperienceBlue;
 import com.jgoodies.swing.util.UIFactory;
 import dyna.framework.Client;
 import dyna.framework.iip.IIPRequestException;
@@ -43,7 +44,7 @@ public class WorkflowModeler extends JFrame
         activityPanel = null;
         try
         {
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new DynaTheme());
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
             FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             dfw = new Client();
             dos = (DOS)dfw.getServiceInstance("DF30DOS1");
@@ -327,7 +328,7 @@ public class WorkflowModeler extends JFrame
     public static void main(String args[])
     {
         splashWindow = new SplashWindow("icons/Splash.jpg", 500);
-        splashWindow.setStatusText("(C) Copyright Innovative PLM Solutions, LTD., 2003.");
+        splashWindow.setStatusText("Copyright (c) 2004, EESIN Information Technology Ltd.");
         splashWindow.toFront();
         WorkflowModeler wm = new WorkflowModeler();
         wm.setVisible(true);

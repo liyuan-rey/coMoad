@@ -9,6 +9,7 @@ import com.jgoodies.clearlook.ClearLookManager;
 import com.jgoodies.clearlook.ClearLookMode;
 import com.jgoodies.plaf.*;
 import com.jgoodies.plaf.plastic.PlasticXPLookAndFeel;
+import com.jgoodies.plaf.plastic.theme.ExperienceBlue;
 import com.jgoodies.swing.util.UIFactory;
 import dyna.framework.Client;
 import dyna.framework.iip.IIPRequestException;
@@ -76,7 +77,7 @@ public class DSSManager extends JFrame
     {
         try
         {
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new DynaTheme());
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
             FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             Options.setGlobalFontSizeHints(FontSizeHints.MIXED);
             Options.setDefaultIconSize(new Dimension(18, 18));

@@ -8,6 +8,8 @@ package dyna.framework.client;
 import com.jgoodies.plaf.FontUtils;
 import com.jgoodies.plaf.LookUtils;
 import com.jgoodies.plaf.plastic.PlasticXPLookAndFeel;
+import com.jgoodies.plaf.plastic.theme.ExperienceBlue;
+
 import dyna.framework.Client;
 import dyna.framework.service.ACL;
 import dyna.framework.service.AUS;
@@ -72,8 +74,8 @@ public class DynaMOAD
     {
         try
         {
-            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new DynaTheme());
-            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 11), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
+            LookUtils.setLookAndTheme(new PlasticXPLookAndFeel(), new ExperienceBlue());
+            FontUtils.initFontDefaults(UIManager.getLookAndFeelDefaults(), new Font("dialog", 0, 12), new Font("dialog", 1, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12), new Font("dialog", 0, 12));
             dfw = new Client();
             dos = (DOS)dfw.getServiceInstance("DF30DOS1");
             nds = (NDS)dfw.getServiceInstance("DF30NDS1");
@@ -206,7 +208,7 @@ public class DynaMOAD
         isDeamonMode = true;
     }
 
-    public static final String COPYRIGHT_TEXT = "Copyright (c) 2003-2004, Innovative PLM Solutions LTD.";
+    public static final String COPYRIGHT_TEXT = "Copyright (c) 2004, EESIN Information Technology Ltd.";
     public static Client dfw = null;
     public static DOS dos = null;
     public static NDS nds = null;

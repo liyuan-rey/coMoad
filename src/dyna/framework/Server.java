@@ -31,8 +31,8 @@ public class Server
         String tempString = null;
         server = this;
         System.out.println();
-        System.out.println("DynaMOAD Server v.1.0.0 (Enterprise Edition)");
-        System.out.println("Copyright (c) 2003-2004, Innovative PLM Solutions LTD. All rights reserved.");
+        System.out.println("coMoad Server v.1.0.0 (Enterprise Edition)");
+        System.out.println("Copyright (c) 2004, EESIN Information Technology Ltd.");
         System.out.println();
         System.out.println("Start initialization.....");
         ACCESS_IDENTIFIER = System.currentTimeMillis();

@@ -106,7 +106,7 @@ public class MainFrame extends JFrame
         dss = null;
         wfm = null;
         searchResultFrame = null;
-        statusField = new ExtLabel("Copyright (c) 2003-2004, Innovative PLM Solutions LTD.", true);
+        statusField = new ExtLabel("Copyright (c) 2004, EESIN Information Technology Ltd.", true);
         modelOuid = "";
         try
         {
