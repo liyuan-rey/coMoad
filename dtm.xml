@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='euc-kr'?>
+
+<!--
+    Configuration File for Distrubuted Transaction Manager
+
+    DynaMOAD Server v.1
+    Copyright (c) 2003, Innovative PLM Solutions, LTD.
+-->
+
+<dtm>
+
+    <datasource>
+        <id>system</id>
+        <driver>oracle.jdbc.driver.OracleDriver</driver>
+        <url>jdbc:oracle:thin:@127.0.0.1:1521:LEARN</url>
+        <user>df3</user>
+        <password>df3</password>
+        <cache>
+            <minlimit>5</minlimit>
+            <maxlimit>32</maxlimit>
+        </cache>
+    </datasource>
+
+    <datasource>
+        <id>default</id>
+        <driver>oracle.jdbc.driver.OracleDriver</driver>
+        <url>jdbc:oracle:thin:@127.0.0.1:1521:LEARN</url>
+        <user>df3_0</user>
+        <password>df3_0</password>
+        <cache>
+            <minlimit>5</minlimit>
+            <maxlimit>32</maxlimit>
+        </cache>
+    </datasource>
+
+    <datasource>
+        <id>erpinterface</id>
+        <driver>oracle.jdbc.driver.OracleDriver</driver>
+        <url>jdbc:oracle:thin:@127.0.0.1:1521:LEARN</url>
+        <user>df3_1</user>
+        <password>df3_1</password>
+        <cache>
+            <minlimit>5</minlimit>
+            <maxlimit>32</maxlimit>
+        </cache>
+    </datasource>
+
+</dtm>

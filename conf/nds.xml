@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='euc-kr'?>
+
+<!--
+    Configuration File for Name and Directory Service
+
+    DynaFramework Server v.3
+    (C) Copyright Computer Integrated Engineering System LTD. 1999-2002.
+-->
+
+<nds>
+
+    <node>
+        <path>::/NDS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/AUS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/DTM_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/DSS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/LIC_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/TSR_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/IDS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/IDS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/DOS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/BJS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/MSR_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/RMS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/ELM_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/WFM_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/DDG_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/OLM_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/MDM_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+    <node>
+        <path>::/BRS_SYSTEM_DIRECTORY</path>
+        <type>value</type>
+    </node>
+
+</nds>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='euc-kr'?>
+
+<!--
+    Main Configuration File
+
+    DynaFramework Client v.3
+    (C) Copyright Computer Integrated Engineering System LTD. 1999-2002.
+-->
+
+<client>
+
+    <!-- Shared Area ============================================= -->
+    <share>
+        <!-- Global Thread Pool -->
+        <threadpool>
+            <number>16</number>
+        </threadpool>
+    </share>
+
+    <!-- Intelligent Information Pipeline ======================== -->
+    <iip>
+        <multicast>
+            <group>224.0.0.88</group>
+            <port>4000</port>
+        </multicast>
+
+        <lookup>
+            <timeout>10</timeout>
+        </lookup>
+<!--
+        <sb>
+            <inet>
+                <address>224.0.0.75</address>
+                <port>4000</port>
+            </inet>
+        </sb>
+-->
+    </iip>
+
+    <locale>zh</locale>
+
+</client>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='euc-kr'?>
+
+<!--
+    Interface Module
+
+    DynaMOAD Client v.1.0.0
+    (C) Copyright Innovative PLM Solutions, LTD. 2003.
+-->
+
+<adapter>
+
+    <!-- 
+        CADIntegration    CAD Integration Module
+     -->
+    <adapter-list>
+        CADIntegration
+    </adapter-list>
+
+    <CADIntegration>
+        <id>CADIntegration</id>
+        <name>CADIntegration</name>
+        <desc>CAD Integration Module</desc>
+        <class>dyna.adapter.CAD</class>
+    </CADIntegration>
+
+</adapter>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='euc-kr'?>
+
+<!--
+    Main Configuration File
+
+    DynaFramework Server v.3
+    (C) Copyright Computer Integrated Engineering System LTD. 1999-2002.
+-->
+
+<server>
+
+    <!-- Shared Area ============================================= -->
+    <share>
+        <!-- Global Thread Pool -->
+        <threadpool>
+            <number>64</number>
+        </threadpool>
+    </share>
+
+    <!-- Intelligent Information Pipeline ======================== -->
+    <iip>
+        <multicast>
+            <group>224.0.0.88</group>
+            <port>4000</port>
+        </multicast>
+
+        <!-- Service Broker Controller -->
+        <sbc>
+            <load>false</load>
+<!--
+            <inet>
+                <address>211.232.184.24</address>
+                <port>5611</port>
+            </inet>
+-->
+        </sbc>
+
+        <!-- Service Broker -->
+        <sb>
+<!--
+            <id>bhseo-mini</id>
+-->
+            <id>default</id>
+
+            <standalone>ture</standalone>
+
+            <inet>
+                <port>5612</port>
+            </inet>
+
+            <!-- Broker Pool -->
+            <pool>
+                <number>32</number>
+            </pool>
+        </sb>
+    </iip>
+
+</server>
