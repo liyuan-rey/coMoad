@@ -1,7 +1,4 @@
 @echo off
 
-call cpset.bat
-
-%JAVA_PATH%\bin\javaw.exe -classpath %DYNAPATH%;D:\MyProjs\eclipse_workspace\DFEMPDM\dyna.jar dyna.updater.Updater
-
-%JAVA_PATH%\bin\javaw.exe -classpath %DYNAPATH%;D:\MyProjs\eclipse_workspace\DFEMPDM\dyna.jar dyna.framework.client.DynaMOAD
+java.exe -cp .;..\lib\920classes12.zip;..\lib\920nls_charset12.zip;..\lib\activation.jar;..\lib\animation.jar;..\lib\binding.jar;..\lib\charts.jar;..\lib\crimson.jar;..\lib\forms-extra.zip;..\lib\forms.jar;..\lib\jg-uif.jar;..\lib\looks-all.jar;..\lib\mail.jar;..\lib\NIST.zip;..\lib\script.zip dyna.updater.Updater
+java.exe -cp .;..\lib\920classes12.zip;..\lib\920nls_charset12.zip;..\lib\activation.jar;..\lib\animation.jar;..\lib\binding.jar;..\lib\charts.jar;..\lib\crimson.jar;..\lib\forms-extra.zip;..\lib\forms.jar;..\lib\jg-uif.jar;..\lib\looks-all.jar;..\lib\mail.jar;..\lib\NIST.zip;..\lib\script.zip dyna.framework.client.DynaMOAD
