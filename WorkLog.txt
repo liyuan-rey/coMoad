@@ -1,0 +1,6 @@
+
+1. 修改 L&F, DynaMOAD, 将 DynaTheme 修改为 ExperienceBlue
+2. 修改菜单字体大小, 由 11 改为 12
+3. 修改所有版权声明标识, 由 Innovative 改为 EESIN
+4. 修改 OM 中模型的名称, 由 DFEM-DynaPDM 改为 coMoad
+5. 修改颜色配置
