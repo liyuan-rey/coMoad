@@ -1,7 +1,24 @@
-
+=== 2004/12/21/01:45AM ===
 *. 修改 L&F, DynaMOAD, 将 DynaTheme 修改为 ExperienceBlue
 *. 修改菜单字体大小, 由 11 改为 12
 *. 修改所有版权声明标识, 由 Innovative 改为 EESIN
 *. 修改所有软件标识, 由 "DynaMOAD 和 DynaMOAD" 改为 coMoad
 *. 修改 OM 中模型的名称, 由 DFEM-DynaPDM 改为 coMoad
 *. 修改颜色配置
+------
+modified   src/dyna/framework/Client.java
+modified   src/dyna/framework/Server.java
+modified   src/dyna/framework/client/AssoClassUI.java
+modified   src/dyna/framework/client/CreateProcess.java
+modified   src/dyna/framework/client/DynaMOAD.java
+modified   src/dyna/framework/client/LogIn.java
+modified   src/dyna/framework/client/MainFrame.java
+modified   src/dyna/framework/client/PartInsert4CADIntegration.java
+modified   src/dyna/framework/client/Search4CADIntegration.java
+modified   src/dyna/framework/client/UIGeneration.java
+modified   src/dyna/framework/editor/dssmanager/DSSManager.java
+modified   src/dyna/framework/editor/msrmanager/MSRManager.java
+modified   src/dyna/framework/editor/user/UserManager.java
+modified   src/dyna/framework/editor/workflow/WorkflowModeler.java
+modified   src/dyna/updater/Updater.java
+modified   src/dyna/util/notepad/Notepad.java
